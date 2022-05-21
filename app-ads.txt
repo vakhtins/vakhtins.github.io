@@ -54,3 +54,30 @@ adcolony.com, 0a0f72cd66122f31, RESELLER, 1ad675c9de6b5176
 adcolony.com, 801e49d1be83b5f9, RESELLER, 1ad675c9de6b5176
 loopme.com, 9621, RESELLER, 6c8d5f95897a5a3b
 webeyemob.com, 70097, RESELLER
+liftoff.io, 7f6945815e6, RESELLER
+loopme.com, 11414, RESELLER, 6c8d5f95897a5a3b
+yeahmobi.com, 5135195, RESELLER
+yandex.com, 97539269, RESELLER
+inmobi.com, 062029933580429f9920bad476d8d70a, RESELLER, 83e75a7ae333ca9d
+bidease.com, exchange-20, RESELLER
+openx.com, 540866936, RESELLER, 6a698e2ec38604c6
+rubiconproject.com, 24526, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 18364, RESELLER, 0bfd66d529a55807
+appnexus.com, 13293, RESELLER
+appnexus.com, 13297, RESELLER
+indexexchange.com, 198417, RESELLER, 50b1c356f2c5c8fc
+indexexchange.com, 186081, RESELLER, 50b1c356f2c5c8fc
+video.unrulymedia.com, 3383599585, RESELLER, a670c89d4a324e47
+pubmatic.com, 161372, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160113, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160974, RESELLER, 5d62403b186f2ace
+xandr.com, 13297, RESELLER
+admixplay.com, 2012, RESELLER
+google.com, pub-5435949717037912, RESELLER
+mintegral.com, 10038, RESELLER
+rhythmone.com, 3383599585, RESELLER, a670c89d4a324e47
+themediagrid.com, SWH94X, RESELLER, 35d5010d7789b49d
+bidmachine.io, 114, RESELLER
+bidmachine.io, 67, RESELLER
+criteo.com, B-057955, RESELLER, 9fac4a4a87c2a44f
+criteo.com, B-057601, RESELLER, 9fac4a4a87c2a44f
