@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>Privacy Policy | Eat or Not: Food Check</title>
+  <title>Privacy Policy | Eat or Not: AI Food Check</title>
   <style>
     :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
     body { margin: 0; background: Canvas; color: CanvasText; }
@@ -17,11 +17,12 @@
 <body>
 <main>
   <nav><a href="../support/">Support</a></nav>
-  <h1>Eat or Not: Food Check<br>Privacy Policy</h1>
-  <p class="muted">Last updated: October 6, 2026</p>
-  <p>Eat or Not: Food Check is operated by Stepan Vakhtin. This policy explains how the app handles information when you analyze food or drinks, save scan history, and purchase subscriptions or additional scans.</p>
+  <h1>Eat or Not: AI Food Check<br>Privacy Policy</h1>
+  <p class="muted">Last updated: October 7, 2026</p>
+  <p>Eat or Not: AI Food Check is operated by Stepan Vakhtin. This policy explains how the app handles information when you analyze food or drinks, save scan history, and purchase subscriptions or additional scans.</p>
 
   <h2>1. Photos and AI analysis</h2>
+  <p>Before the first AI analysis, the app asks for permission to share a selected photo with these services. You can decline, or later turn off Allow AI photo analysis in the app's Settings. Turning it off prevents further photo uploads for analysis; it does not erase information already processed by providers.</p>
   <p>You choose whether to take a photo or select an image using Apple's photo picker. The app does not upload your entire photo library. For analysis, it sends a resized copy of the selected photo over HTTPS to our backend hosted by Cloudflare. The backend forwards the image and an analysis instruction to DeepSeek, or to Google Gemini as a fallback if the primary service cannot complete the request.</p>
   <p>The image may include incidental information such as people, labels, or surroundings. Please avoid photos containing faces, personal documents, or sensitive information. Our application backend does not persist uploaded photo files or deliberately include photo content in its diagnostic logs. AI providers process requests under their own terms and may retain input and output for purposes such as security, legal compliance, or service improvement, depending on the provider and service configuration. We do not promise zero retention or no model training by these providers.</p>
   <p>The AI returns a likely food or drink name, a general healthfulness category, and explanatory points. Results may be inaccurate and are not medical advice, allergy detection, or food-safety advice.</p>
@@ -32,6 +33,7 @@
 
   <h2>3. Service identifiers, scan limits, and cached results</h2>
   <p>No separate app account or registration is required. The backend stores pseudonymous installation identifiers, App Attest verification information, scan counters, subscription status, and purchased-scan balances. These records authenticate requests, enforce limits, prevent abuse, and deliver purchases. Pseudonymous identifiers are not necessarily anonymous.</p>
+  <p>For trial eligibility, the app may send an Apple DeviceCheck token to our backend. The backend asks Apple whether this device has already received a trial and records that eligibility with Apple. This helps prevent repeated free trials after reinstalling. We do not persist the DeviceCheck token. Apple's DeviceCheck state is shared by apps from the same developer team and is not erased by uninstalling the app.</p>
   <p>We store an image-derived hash and the associated analysis result to identify repeated requests and avoid charging twice for the same analysis. The cached result may contain the inferred food or drink name and nutritional explanation; it is not the original photo. These results and service records currently have no automatic expiry. Deleting local history does not itself delete backend records. Contact us to request deletion; we may need information that lets us identify the relevant installation or purchase without asking for your Apple account password.</p>
   <p>Our backend and hosting providers may process technical request information, including IP addresses, timestamps, and error information, for operation and security. Application diagnostic logs are designed not to contain uploaded images, API secrets, or complete purchase receipts.</p>
 
@@ -59,7 +61,7 @@
   <h2>8. Changes and contact</h2>
   <p>We may update this policy when the service or its data practices change. The current version and update date will be published on this page.</p>
   <p>Developer: Stepan Vakhtin<br>Email: <a href="mailto:contact.stepan.vakhtin@mail.ru">contact.stepan.vakhtin@mail.ru</a></p>
-  <footer><a href="../support/">Eat or Not: Food Check Support</a></footer>
+  <footer><a href="../support/">Eat or Not: AI Food Check Support</a></footer>
 </main>
 </body>
 </html>
