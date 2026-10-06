@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy Policy | Eat or Not: Food Check</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    body { margin: 0; background: Canvas; color: CanvasText; }
+    main { max-width: 760px; margin: auto; padding: 40px 24px 64px; overflow-wrap: anywhere; }
+    h1 { font-size: 30px; line-height: 1.2; } h2 { font-size: 21px; margin-top: 32px; line-height: 1.35; }
+    a { color: light-dark(#732acb, #c79aff); } .muted { color: light-dark(#62626b, #b1b1ba); }
+    li { margin-bottom: 8px; } nav { margin-bottom: 32px; } footer { margin-top: 40px; border-top: 1px solid light-dark(#ddd, #444); padding-top: 16px; }
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="../support/">Support</a></nav>
+  <h1>Eat or Not: Food Check<br>Privacy Policy</h1>
+  <p class="muted">Last updated: October 6, 2026</p>
+  <p>Eat or Not: Food Check is operated by Stepan Vakhtin. This policy explains how the app handles information when you analyze food or drinks, save scan history, and purchase subscriptions or additional scans.</p>
+
+  <h2>1. Photos and AI analysis</h2>
+  <p>You choose whether to take a photo or select an image using Apple's photo picker. The app does not upload your entire photo library. For analysis, it sends a resized copy of the selected photo over HTTPS to our backend hosted by Cloudflare. The backend forwards the image and an analysis instruction to DeepSeek, or to Google Gemini as a fallback if the primary service cannot complete the request.</p>
+  <p>The image may include incidental information such as people, labels, or surroundings. Please avoid photos containing faces, personal documents, or sensitive information. Our application backend does not persist uploaded photo files or deliberately include photo content in its diagnostic logs. AI providers process requests under their own terms and may retain input and output for purposes such as security, legal compliance, or service improvement, depending on the provider and service configuration. We do not promise zero retention or no model training by these providers.</p>
+  <p>The AI returns a likely food or drink name, a general healthfulness category, and explanatory points. Results may be inaccurate and are not medical advice, allergy detection, or food-safety advice.</p>
+
+  <h2>2. Scan history on your device and in iCloud</h2>
+  <p>Scan photos, results, and dates are stored locally on your device. Free users have a history of up to 25 local scans. Premium enables expanded history and synchronization through Apple's CloudKit private database associated with your iCloud account. Synchronization requires an available iCloud account and network connection.</p>
+  <p>You can delete scans or clear history in the app. When iCloud synchronization is active, the app also synchronizes deletion of the photo and result. Minimal deletion markers may remain to prevent a deleted scan from being restored on another device. If synchronization is unavailable or Premium has expired, local deletion may not immediately remove an existing iCloud copy. You can manage app data in your device's iCloud settings. Uninstalling the app does not automatically delete iCloud data or backend records.</p>
+
+  <h2>3. Service identifiers, scan limits, and cached results</h2>
+  <p>No separate app account or registration is required. The backend stores pseudonymous installation identifiers, App Attest verification information, scan counters, subscription status, and purchased-scan balances. These records authenticate requests, enforce limits, prevent abuse, and deliver purchases. Pseudonymous identifiers are not necessarily anonymous.</p>
+  <p>We store an image-derived hash and the associated analysis result to identify repeated requests and avoid charging twice for the same analysis. The cached result may contain the inferred food or drink name and nutritional explanation; it is not the original photo. These results and service records currently have no automatic expiry. Deleting local history does not itself delete backend records. Contact us to request deletion; we may need information that lets us identify the relevant installation or purchase without asking for your Apple account password.</p>
+  <p>Our backend and hosting providers may process technical request information, including IP addresses, timestamps, and error information, for operation and security. Application diagnostic logs are designed not to contain uploaded images, API secrets, or complete purchase receipts.</p>
+
+  <h2>4. Purchases</h2>
+  <p>Apple handles payment and billing. We do not receive your payment-card details or Apple account password. The app sends Apple-signed transaction information to our backend, which verifies it with Apple. We store relevant transaction identifiers, a pseudonymous purchase identifier, product information, entitlement dates, revocation status, and credit records to provide subscription benefits, restore purchases, and prevent duplicate credit grants.</p>
+  <p>Purchase and credit records may be retained to administer outstanding balances, resolve disputes, prevent fraud, and meet applicable legal obligations. Cancelling a subscription does not automatically erase these records. Deletion requests may affect restoration of benefits and require review where unused purchased scans remain.</p>
+
+  <h2>5. Providers and international processing</h2>
+  <p>Service providers may process information outside your country, including in China for DeepSeek and other locations where Cloudflare, Google, and Apple operate. Their published policies and terms provide further information:</p>
+  <ul>
+    <li><a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">DeepSeek Privacy Policy</a></li>
+    <li><a href="https://ai.google.dev/gemini-api/terms">Google Gemini API Terms</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Google's unpaid API terms allow use of submitted content and responses for improvement and human review; paid API terms have different protections.</li>
+    <li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a></li>
+    <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+  </ul>
+  <p>The app currently contains no advertising SDKs or third-party behavioral analytics SDKs. We do not sell your information or use it for targeted advertising.</p>
+
+  <h2>6. Your choices and requests</h2>
+  <p>You can stop sending photos by not requesting further scans, revoke camera access in iOS Settings, delete local history, and manage iCloud app data through Apple. To ask about access, correction, deletion, or other applicable privacy rights, email <a href="mailto:contact.stepan.vakhtin@mail.ru">contact.stepan.vakhtin@mail.ru</a>. Rights and exceptions depend on applicable law. We may retain information where necessary for legal obligations, security, or outstanding purchase entitlements.</p>
+  <p>If you contact support, we receive the email address and information you voluntarily provide and use them to respond and resolve the issue. Do not send passwords or payment-card details.</p>
+
+  <h2>7. Children</h2>
+  <p>The service is intended for adults aged 18 and over and is not directed at children. If you believe a child has submitted personal information, contact us so we can investigate and address the request.</p>
+
+  <h2>8. Changes and contact</h2>
+  <p>We may update this policy when the service or its data practices change. The current version and update date will be published on this page.</p>
+  <p>Developer: Stepan Vakhtin<br>Email: <a href="mailto:contact.stepan.vakhtin@mail.ru">contact.stepan.vakhtin@mail.ru</a></p>
+  <footer><a href="../support/">Eat or Not: Food Check Support</a></footer>
+</main>
+</body>
+</html>
